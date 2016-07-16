@@ -44,13 +44,11 @@ body {
 }
 
 #navigation {
-	
+	padding: 15px 0px 0px 0px;	
 }
 
 nav {
 	float: right;
-	margin-top: 15px;
-	/*display: inline;*/
 }
 
 main{
