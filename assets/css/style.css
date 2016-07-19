@@ -27,10 +27,11 @@ body {
 	height: 50px;
 	background-color: #ffffff;
 	border-color: #cccccc;	
+	margin: auto;
 }
 #name {
 	float: left;
-	margin-left: 150px;
+	margin-left: 200px;
 	height: 60px;
 	width: 180px;
 	display: inline;
@@ -42,23 +43,92 @@ body {
 	font-size: 20px;
 	font-weight: 800;
 }
+nav {
+	float: right;
+	margin-right: 70px;
+}
 
 #navigation {
 	padding: 15px 0px 0px 0px;	
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#navi a{
+	text-decoration: none;
+	padding-right: 20px;
+	color: #777777;
+}
+li {
+	display: inline;
 }
 
-nav {
-	float: right;
+.main-container{
+	width:100%;
+	background-color: #e7e4e4;
+	align-self: center;
+	margin: auto;
+	padding: 20px 0px 30px 20px;
+	display: inline-block;
 }
-
-main{
+.submain-container {
 	width:650px;
 	background-color: #ffffff;
-	border-color: #dddddd;
+	align-self: center;
+	margin: auto;
+	margin-top: 10px;
+	float:left;
+}
+.submain-container-title {
+	font-size: 20px;
+	font-weight: 800;
+	color:#62d6e2;
+	padding: 20px 0px 20px 20px;
+}
+hr {
+	width: 93%;
+	border-top: 3px solid #e7e4e4;
+	margin: 20px 0px 20px 20px;
+}
+
+.submain-container-text {
+	padding: 20px 20px 20px 20px;
+	text-align: justify;
+	line-height: normal;
+
+}
+.submain-container-image {
+    float: left;
+    margin: 0px 20px 15px 20px;
+}
 }
 
 aside{
-	width: 270px;
+
+}
+.aside-container {
+	width:270px;
+	background-color: #ffffff;
+	margin: auto;
+	margin-top: 10px;
+	float:right;
+	padding: 20px;
+	margin-right: 10px;	
+}
+.aside-container-title {
+	font-weight: 800;
+	color:#62d6e2;
+	padding: 10px 0px 20px 20px;
+}
+.hr-aside {
+	width: 97%;
+	border: 1px solid #e7e4e4;
+	margin: 10px 0px 40px 0px;
+}
+.aside_container-images{
+	display: inline;
+	margin-left: 15px;
+}
+.aside-container-image {
+	padding: 5px 0px 5px 10px;
 }
 
 footer{
@@ -66,10 +136,21 @@ footer{
 	height: 50px;
 	text-align: center;
 }
+.hr-bottom {
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+	border-top: 3px solid #62d6e2;
+}
 #copywrite {
 	padding: 20px 0px 20px 0px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 9px;
+	color: #d9d9d9;
 }
 #ffont{
 	color: #777777;
 
+}
+.clear {
+	clear: both;
 }
