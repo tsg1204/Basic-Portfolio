@@ -14,44 +14,61 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 </head>
-
+   
 <body>
 	<header id="top">
 		<div id="name">
 			<p id="tat">Tatiana Grigorieva</p>
 		</div>
 		<div id="navigation">
-			<nav>
-			  	<a href="index.html">About</a> |
-			  	<a href="portfolio.html">Portfolio</a> |
-			  	<a href="contact.html">Contact</a> |
+			<nav id="navi" class="other-fonts">
+		  	  <ul>
+			    <li><a href="index.html">About</a> 
+			    <li><a href="portfolio.html">Portfolio</a>
+			    <li><a href="contact.html">Contact</a>
+			  </ul>
 			</nav>
 		</div>
 	</header>
 
-	<main>
-		<h1>Contact</h1>
-		<form id="contact" action="" method="post">
-		    <fieldset>
-		      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-		    </fieldset>
-		    <fieldset>
-		      <input placeholder="example@gmail.com" type="email" tabindex="2" required>
-		    </fieldset>		
-		    <fieldset>
-		      <textarea placeholder="Type your Message Here...." tabindex="3" required></textarea>
-		    </fieldset>	
-		   	<fieldset>
-      			<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-    		</fieldset>
-  		</form>
+	<main class="main-container">
+		<section class="submain-container">
+			 <h1 class="submain-container-title">Contact</h1>
+			 <hr class="hr-main">
+			 <div class="form-style">
+				<form  action="" method="post">
+				    <fieldset class="form-fieldset-style other-fonts">
+				    	<label class="other-fonts">Name</label>
+				      	<input placeholder="Your name" type="text" tabindex="1" required autofocus>
+				    </fieldset>
+				    <fieldset class="form-fieldset-style other-fonts">
+				    	<label class="other-fonts">Email</label>
+				      	<input placeholder="example@gmail.com" type="email" tabindex="2" required>
+				    </fieldset>		
+				    <fieldset class="form-fieldset-style other-fonts">
+				    	<label class="other-fonts">Message</label>
+				      	<textarea rows="5" placeholder="Type your Message Here...." tabindex="3" required></textarea>
+				    </fieldset>	
+				   	<fieldset class="form-fieldset-style other-fonts">
+		      			<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+		    		</fieldset>
+		  		</form>
+	  		</div>
+  		</section>
+		<aside class="aside-container">
+			<h3 class="aside-container-title">Connect with Me</h3>
+			<hr class="hr-aside">
+			<div class="aside_container-images"> 
+				<img class="aside-container-image" src="assets/images/linkedin.png">
+				<img class="aside-container-image" src="assets/images/stackoverflow.png">
+				<img class="aside-container-image" src="assets/images/github.png">
+			</div>
+
+		</aside>
 	</main>
 
-	<aside>
-
-	</aside>
-
-	<footer>
+	<hr class="hr-bottom">
+	<footer class="other-fonts">
 	  <div id="copywrite">&copy;Copywrite 2016 Tatiana Grigorieva</div>
 	</footer>
 
